@@ -29,13 +29,13 @@ tutorial).
 ## Resources
 
 - https://pipelines.lsst.io/getting-started/
-..- Tutorial and helpful reference on similar topics we’re covering today. 
+  - Tutorial and helpful reference on similar topics we’re covering today. 
 - https://pipelines.lsst.io/v/daily/
-..- In-progress documentation on all of the Tasks and functions in the Stack
+  - In-progress documentation on all of the Tasks and functions in the Stack
 - https://community.lsst.org/
-..- Q&A about LSST; someone might have already answered your question here.
+  - Q&A about LSST; someone might have already answered your question here.
 - https://github.com/LSSTScienceCollaborations/StackClub/
-..- “Stack Club” is a group of science users exploring the LSST Stack. Many helpful
+  - “Stack Club” is a group of science users exploring the LSST Stack. Many helpful
 notebooks, all on github.
 
 
