@@ -16,11 +16,19 @@ directory to work on.
 
 After copying, users will need to run `processCcd.py` at a terminal to process
 the raw data into a finished, calibrated exposure and associated source catalog.
-You can access a terminal inside the JupyterLab environment.  The format
-of this command is:
+You can access a terminal inside the JupyterLab environment.  
 
+To setup the terminal environment for running LSST stack commands, run:
 ```
-processCcd.py /PATH/TO/YOUR/REPO --id RERUN_NAME --id visit=903334 ccd=16
+source /opt/lsst/software/stack/loadLSST.bash
+setup lsst_distrib
+```
+This configures paths and environment variables to select the software you want
+to use.
+
+To run the initial LSST processing stages, use the command: 
+```
+processCcd.py /PATH/TO/YOUR/REPO --rerun RERUN_NAME --id visit=903334 ccd=16
 ```
 where `RERUN_NAME` is a name of your choosing; each time you process data, you
 should give it a new rerun name (we'll talk more about this during the
