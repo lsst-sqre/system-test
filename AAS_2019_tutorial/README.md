@@ -26,6 +26,10 @@ setup lsst_distrib
 This configures paths and environment variables to select the software you want
 to use.
 
+To obtain the raw image data into your home directory, run
+```
+cp -r /project/shared/data/ci_hsc_small ~/ci_hsc_small
+```
 To run the initial LSST processing stages, use the command: 
 ```
 processCcd.py /PATH/TO/YOUR/REPO --rerun RERUN_NAME --id visit=903334 ccd=16
