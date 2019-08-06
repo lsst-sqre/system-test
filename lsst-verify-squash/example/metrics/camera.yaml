@@ -1,0 +1,9 @@
+AvgCameraBodySurfaceTemp:
+  description: >
+    The average temperature of the camera body surface taken from 1000 measurements. This is made up.
+  unit: Celsius
+  reference:
+    url: https://project.lsst.org/sysver
+  tags:
+    - demo
+    - system verification
