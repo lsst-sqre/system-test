@@ -1,9 +1,6 @@
-## This directory holds experimental notebooks demonstrating interaction with the `efd`.
+## This directory holds an experimental notebooks demonstrating interaction with the `efd`.
+The notebooks in this directory are not regularly CI'd so may or may not work.
+Specifically, some instances of the `efd` are not visible from all computing resources.
 
-Note that these notebooks will only work if the environment processing the notebook can see the `efd` endpoint.
-
-Currently, the only `efd` receiving live telemetry is located in the lab at NOAO and is only visible to the NOAO network.
-This means that notebooks run on either nublado or the LDF will not work.
-
-Finally, you will need the credentials for the `efd` server.
+You will need the credentials for the `efd` server.
 Ask your local `SAL` expert if you don't know them.
