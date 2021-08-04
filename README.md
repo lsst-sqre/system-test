@@ -1,7 +1,7 @@
 # notebook-demo
 Jupyter Notebooks curated by SQuaRE for demos and testing
 
-***Note** there is a special branch called 'prod' in this repo that is continuously deployed into production. Do not update this branch unless you know what you are doing. (Better instructions that "know what you are doing" will be forthcoming once the workflow settles down).
+***Note** there is a special branch called 'prod' in this repo that is continuously deployed into production. Do not update this branch unless you know what you are doing. (Better instructions than "know what you are doing" will be forthcoming once the workflow settles down).
 
 ## General setup
 
