@@ -2,9 +2,6 @@
 
 Jupyter Notebooks curated by SQuaRE for testing
 
-***Note** there is a special branch called 'prod' in this repo that is continuously deployed into production.
-Do not update this branch unless you know what you are doing. (Better instructions than "know what you are doing" will be forthcoming once the workflow settles down).
-
 ## General setup
 
 The most common workflow is to work in an https://data.lsst.cloud JupyterLab session.
@@ -18,3 +15,8 @@ cd ~/mynotebooks
 git clone https://github.com/lsst-sqre/system-test.git
 make init
 ```
+
+### This branch
+
+`square-bootcamp` is just for the SQuaRE Bootcomp (6-10 May 2024).
+It tests the service created for the bootcamp.

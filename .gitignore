@@ -102,3 +102,6 @@ ENV/
 
 # dask
 dask-worker-space
+
+# Mac
+.DS_Store
