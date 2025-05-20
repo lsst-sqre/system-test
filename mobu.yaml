@@ -1,2 +1,6 @@
 exclude_dirs:
   - experiments
+  - efd_examples
+  - exposurelog_examples
+  - lsst-verify-squash
+  - telescope_examples
